@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-4 col-sm-6 animate__animated animate__bounce" *ngFor="let item of results">
+    <div class="card">
+      <img [src]="item.images.downsized.url" alt="" />
+      <div class="card-body">
+        <p class="card-text">{{ item.title }}</p>
+      </div>
+    </div>
+  </div>
+</div>
